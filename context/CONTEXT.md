@@ -1,33 +1,44 @@
 # CONTEXT
 
-> Ma carte d'identité. Ce fichier sera enrichi via l'installation interactive (`/install module-installs/jarvis-install`) puis évoluera au fil du temps.
+> Ma carte d'identité. Mise à jour au fil du temps quand ma situation évolue.
 
 ---
 
 ## Qui je suis
 
-[À REMPLIR PAR L'INSTALLATION]
+- Marc, basé à Saint-Jeannet (France, fuseau Europe/Paris)
+- En reconversion professionnelle
+- Fondateur de **FriCom** (société déjà créée)
 
 ## Ce que je fais
 
-[À REMPLIR PAR L'INSTALLATION]
+- Apprentissage des outils d'IA pour les mettre au service de mon activité
+- Objectif métier : **marketing d'affiliation** (faire de la publicité ciblée pour des produits et toucher une commission quand les gens achètent via mes liens, sans gérer de stock)
+- Secteurs visés : e-commerce, réseaux sociaux, création de contenu, formation IA
 
 ## Mes objectifs actuels
 
-[À REMPLIR PAR L'INSTALLATION]
+- **Mois 1** : maîtrise de Claude et de Gemini
+- **Mois 2** : premier revenu de 500 €
+- **Mois 6** : atteindre 2000 € / mois
 
 ## Mes projets en cours
 
-[À REMPLIR PAR L'INSTALLATION]
+- **FriCom** : société créée, structure prête. Prochain jalon : lancer les premières campagnes d'affiliation une fois la maîtrise des outils acquise.
 
 ## Mes partenaires et collaborateurs clés
 
-[À REMPLIR PAR L'INSTALLATION]
+- Communauté **Skool** avec plusieurs mentors
 
 ## Mes outils et environnement
 
-[À REMPLIR PAR L'INSTALLATION]
+- **Claude** et **Gemini** (assistants IA)
+- **Shopify** (boutique / pages de vente)
+- **CapCut** (montage vidéo pour le contenu)
 
 ## Mes préférences de travail
 
-[À REMPLIR PAR L'INSTALLATION]
+- Ton : direct, pédagogue, accessible à un débutant complet
+- Pas de jargon technique, pas d'anglicismes inutiles
+- Priorité à la réussite et à l'action, peu importe la forme
+- Communication en français

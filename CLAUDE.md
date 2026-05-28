@@ -6,7 +6,7 @@ This file provides guidance to Claude Code when working in this workspace.
 
 ## What This Is
 
-Ce workspace est le Jarvis personnel de [VOTRE NOM]. Il a été créé avec le Jarvis Starter Kit pour servir d'assistant IA personnel au quotidien.
+Ce workspace est le Jarvis personnel de Marc (FriCom). Il a été créé avec le Jarvis Starter Kit pour servir d'assistant IA personnel au quotidien.
 
 **Ce fichier (CLAUDE.md) est la fondation.** Il est automatiquement chargé au début de chaque session. Gardez-le à jour, c'est la source de vérité unique sur la façon dont Claude doit comprendre et opérer dans ce workspace.
 
@@ -17,7 +17,7 @@ Ce workspace est le Jarvis personnel de [VOTRE NOM]. Il a été créé avec le J
 > Cette section sera remplie automatiquement lors de l'installation initiale via le module `/install module-installs/jarvis-install`.
 > Elle peut ensuite évoluer au fil du temps quand votre situation change.
 
-[À REMPLIR PAR LE MODULE D'INSTALLATION]
+Marc, basé à Saint-Jeannet (France). En reconversion professionnelle, a déjà créé sa société **FriCom**. Apprentissage intensif des outils d'IA (Claude, Gemini) pour se lancer dans le marketing d'affiliation : pub ciblée + commission sur ventes, sans stock. Équipé de Shopify et CapCut. Suit des formations sur Skool avec plusieurs mentors. Veut un assistant pédagogue qui explique tout simplement, sans jargon.
 
 ---
 
