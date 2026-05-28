@@ -125,6 +125,10 @@ Skill de veille intelligente qui filtre les actualités selon mon contexte perso
 
 L'avantage : pas de bruit. Seulement ce qui me concerne vraiment, vu mes objectifs et projets actuels.
 
+### astrologie
+
+Générateur de contenus astrologiques courts, fun et viraux pour TikTok, Instagram et Facebook. Style "Co-Star" Gen Z. Produit horoscopes, compatibilités, scripts vidéo prêts à tourner (avec notes CapCut, hashtags, meilleurs créneaux de publication). Activée quand je demande un contenu astro, une idée de vidéo astro, ou un horoscope. Sert mon projet secondaire **Astro Fun**.
+
 ---
 
 ## Getting Started

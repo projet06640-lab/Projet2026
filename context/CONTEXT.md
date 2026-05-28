@@ -24,7 +24,8 @@
 
 ## Mes projets en cours
 
-- **FriCom** : société créée, structure prête. Prochain jalon : lancer les premières campagnes d'affiliation une fois la maîtrise des outils acquise.
+- **FriCom — Marketing d'affiliation (projet principal)** : société créée, structure prête. Prochain jalon : lancer les premières campagnes d'affiliation une fois la maîtrise des outils acquise.
+- **Projet Astro Fun (projet secondaire, en parallèle)** : créer un site fait avec l'IA + des vidéos courtes (TikTok, Instagram, Facebook) sur l'astrologie. Angle : fun et accessible Gen Z, style "Co-Star". Monétisation par les revenus des vidéos (TikTok Creator Fund, programmes équivalents) et éventuellement AdSense sur le site quand il y aura du trafic. Pas d'affiliation ni de vente directe sur ce projet.
 
 ## Mes partenaires et collaborateurs clés
 

@@ -4,6 +4,14 @@
 
 ---
 
+## 2026-05-28 — Lancement du projet Astro Fun (en parallèle de FriCom)
+
+Marc lance un projet secondaire de création de contenu astrologique : un site fait avec l'IA + des vidéos courtes sur TikTok, Instagram et Facebook. Angle : fun et accessible Gen Z, style Co-Star. Monétisation par les revenus des vidéos (TikTok Creator Fund et équivalents), AdSense possible sur le site quand il y aura du trafic. Pas d'affiliation, pas de vente directe. Ce projet vient en plus de l'activité principale d'affiliation, il ne la remplace pas.
+
+Création de la skill `astrologie` qui produit horoscopes, compatibilités, scripts vidéo prêts à tourner (hook, corps, CTA, notes CapCut, hashtags, créneaux de publication).
+
+---
+
 ## 2026-05-28 — Ajout de la routine /tendances
 
 Création de la commande `/tendances` : veille des produits qui montent à l'international (USA, Asie) et qui sont poussés par les créateurs sur les réseaux sociaux (TikTok, Instagram, YouTube). Filtrage selon la saturation du marché français. Sortie : 5 produits max avec angle pub, public cible et programme d'affiliation. À utiliser 1 à 2 fois par semaine.
