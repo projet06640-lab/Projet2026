@@ -125,9 +125,9 @@ Skill de veille intelligente qui filtre les actualités selon mon contexte perso
 
 L'avantage : pas de bruit. Seulement ce qui me concerne vraiment, vu mes objectifs et projets actuels.
 
-### astrologie
+### astro-tarot
 
-Générateur de contenus astrologiques courts, fun et viraux pour TikTok, Instagram et Facebook. Style "Co-Star" Gen Z. Produit horoscopes, compatibilités, scripts vidéo prêts à tourner (avec notes CapCut, hashtags, meilleurs créneaux de publication). Activée quand je demande un contenu astro, une idée de vidéo astro, ou un horoscope. Sert mon projet secondaire **Astro Fun**.
+Générateur de contenus astrologie + tarot pour TikTok, Instagram et Facebook. Angle hybride "mystique-relatable" (70% cosmique sérieux + 30% punchy accessible). Produit horoscopes, tirages de tarot, compatibilités, scripts vidéo prêts à tourner (hook, CTA, prompts pour mascottes IA animées, voix off, transitions CapCut, hashtags, créneaux de publication). Activée quand je demande un contenu astro, un tirage de tarot, une idée de vidéo, ou un horoscope. Sert mon projet secondaire **Astro Fun**.
 
 ---
 

@@ -25,7 +25,7 @@
 ## Mes projets en cours
 
 - **FriCom — Marketing d'affiliation (projet principal)** : société créée, structure prête. Prochain jalon : lancer les premières campagnes d'affiliation une fois la maîtrise des outils acquise.
-- **Projet Astro Fun (projet secondaire, en parallèle)** : créer un site fait avec l'IA + des vidéos courtes (TikTok, Instagram, Facebook) sur l'astrologie. Angle : fun et accessible Gen Z, style "Co-Star". Monétisation par les revenus des vidéos (TikTok Creator Fund, programmes équivalents) et éventuellement AdSense sur le site quand il y aura du trafic. Pas d'affiliation ni de vente directe sur ce projet.
+- **Projet Astro Fun (projet secondaire, en parallèle)** : créer un site fait avec l'IA + des vidéos courtes (TikTok, Instagram, Facebook) sur l'**astrologie ET le tarot**. Angle hybride **"mystique-relatable"** : 70% ambiance cosmique sérieuse + 30% ton accessible et punchy (à mi-chemin entre Co-Star et un compte spirituel classique). Signature visuelle : 12 mascottes des signes générées et animées par IA (Gemini/Midjourney pour les designs, Kling AI ou Luma pour l'animation, ElevenLabs pour la voix, CapCut pour le montage). Monétisation par les revenus des vidéos (TikTok Creator Fund, programmes équivalents) et éventuellement AdSense sur le site quand il y aura du trafic. Pas d'affiliation ni de vente directe sur ce projet.
 
 ## Mes partenaires et collaborateurs clés
 

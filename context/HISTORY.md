@@ -6,9 +6,15 @@
 
 ## 2026-05-28 — Lancement du projet Astro Fun (en parallèle de FriCom)
 
-Marc lance un projet secondaire de création de contenu astrologique : un site fait avec l'IA + des vidéos courtes sur TikTok, Instagram et Facebook. Angle : fun et accessible Gen Z, style Co-Star. Monétisation par les revenus des vidéos (TikTok Creator Fund et équivalents), AdSense possible sur le site quand il y aura du trafic. Pas d'affiliation, pas de vente directe. Ce projet vient en plus de l'activité principale d'affiliation, il ne la remplace pas.
+Marc lance un projet secondaire de création de contenu astrologie ET tarot : un site fait avec l'IA + des vidéos courtes sur TikTok, Instagram et Facebook. Ce projet vient en plus de l'activité principale d'affiliation, il ne la remplace pas.
 
-Création de la skill `astrologie` qui produit horoscopes, compatibilités, scripts vidéo prêts à tourner (hook, corps, CTA, notes CapCut, hashtags, créneaux de publication).
+**Angle final retenu** : hybride **"mystique-relatable"** (70% cosmique sérieux + 30% punchy accessible), à mi-chemin entre Co-Star et un compte spirituel classique. À tester et ajuster après 30 vidéos publiées.
+
+**Signature visuelle** : 12 mascottes des signes générées et animées par IA (Gemini/Midjourney pour les designs, Kling AI ou Luma Dream Machine pour l'animation, ElevenLabs pour la voix off, CapCut pour le montage).
+
+**Monétisation** : revenus des vidéos (TikTok Creator Fund, programmes équivalents), AdSense possible sur le site quand il y aura du trafic. Pas d'affiliation, pas de vente directe sur ce projet.
+
+**Skill créée** : `astro-tarot` qui produit horoscopes, tirages de tarot, compatibilités, scripts vidéo complets prêts à tourner (hook, CTA, prompts visuels IA, notes CapCut, hashtags, créneaux de publication).
 
 ---
 
