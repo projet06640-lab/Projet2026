@@ -4,6 +4,35 @@
 
 ---
 
+## 2026-05-28 — Bilan de session : installation complète et premier script produit
+
+Première session productive du Jarvis. Bilan :
+
+**INSTALLATION & STRUCTURE**
+- Workspace Jarvis Starter Kit installé et personnalisé
+- Profil Marc complet dans CONTEXT.md (reconversion, FriCom, marketing d'affiliation, outils Claude/Gemini/Shopify/CapCut)
+- Objectifs chiffrés posés : maîtrise Claude/Gemini à 1 mois, 500 € à 2 mois, 2000 €/mois à 6 mois
+
+**PROJET ASTRO FUN LANCÉ (en parallèle de FriCom)**
+- Création de contenus astrologie + tarot sur TikTok, Instagram, Facebook
+- Angle hybride mystique-relatable choisi (70/30)
+- Workflow tout-en-un sur CapCut décidé pour démarrer
+
+**OUTILS PRODUITS DANS LE JARVIS**
+- 5 commandes : `/prime`, `/morning`, `/update`, `/tendances`, `/contenu-jour`
+- 2 skills : `recherche-actualites`, `astro-tarot`
+- Fichier `ROUTINE.md` créé comme antisèche quotidienne
+
+**PREMIER LIVRABLE CONCRET**
+- Script vidéo complet pour le Lion (29 mai 2026) produit, prêt à tourner sur CapCut
+- Mode d'emploi CapCut étape par étape fourni
+
+**PROCHAINE ÉTAPE**
+- Marc va tester la production de la première vidéo sur CapCut
+- Retour attendu à la prochaine session pour ajuster le workflow
+
+---
+
 ## 2026-05-28 — Création du fichier ROUTINE.md
 
 Ajout de `context/ROUTINE.md` qui décrit ma routine quotidienne idéale : les commandes à enchaîner chaque matin (`/prime` → `/morning` → `/contenu-jour`), la production CapCut + publication 3 réseaux, la routine du soir (`/update` si besoin), et la routine hebdo (`/tendances` 1 à 2 fois par semaine). Sert d'antisèche quotidienne.
