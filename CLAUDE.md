@@ -64,6 +64,7 @@ Une fois que je confirme, Claude met à jour le fichier en question et ajoute un
 ├── context/
 │   ├── CONTEXT.md               # Qui je suis, ce que je fais, mes objectifs
 │   ├── HISTORY.md               # Journal évolutif de mes sessions
+│   ├── ROUTINE.md               # Ma routine quotidienne (commandes à lancer chaque jour)
 │   └── import/                  # Documents externes à analyser
 ├── .claude/
 │   ├── commands/

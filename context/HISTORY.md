@@ -4,6 +4,12 @@
 
 ---
 
+## 2026-05-28 — Création du fichier ROUTINE.md
+
+Ajout de `context/ROUTINE.md` qui décrit ma routine quotidienne idéale : les commandes à enchaîner chaque matin (`/prime` → `/morning` → `/contenu-jour`), la production CapCut + publication 3 réseaux, la routine du soir (`/update` si besoin), et la routine hebdo (`/tendances` 1 à 2 fois par semaine). Sert d'antisèche quotidienne.
+
+---
+
 ## 2026-05-28 — Ajout de la commande /contenu-jour (workflow CapCut)
 
 Création de la commande `/contenu-jour` qui génère en 1 clic le pack quotidien complet du projet Astro Fun : 12 horoscopes du jour (1 par signe), 1 tirage de tarot du jour, et 1 bonus astro lié à l'événement astro du moment. Chaque contenu inclut un script vidéo complet prêt à tourner sur CapCut (hook, corps, CTA, prompt visuel CapCut AI, voix off, ambiance musicale, hashtags, créneau de publication). Optimisé pour le workflow "tout sur CapCut" décidé par Marc pour démarrer.
