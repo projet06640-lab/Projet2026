@@ -109,6 +109,12 @@ Une fois que je confirme, Claude met à jour le fichier en question et ajoute un
 
 Claude va effectuer une veille des actualités du jour, filtrée selon mon contexte personnel (mes objectifs, mes projets), et me proposer un focus pour la journée. Cette commande utilise la skill `recherche-actualites-contextualisees`.
 
+### /tendances
+
+**Objectif :** Détecter les produits qui montent à l'international et sur les réseaux sociaux, exploitables en affiliation pour le marché français.
+
+Claude va analyser les tendances USA/Asie, les produits poussés par les créateurs sur TikTok/Instagram/YouTube, vérifier la saturation en France, et me sortir 5 produits maximum avec angle pub, public cible et programme d'affiliation. À utiliser 1 à 2 fois par semaine.
+
 ---
 
 ## Skills disponibles

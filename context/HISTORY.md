@@ -4,6 +4,12 @@
 
 ---
 
+## 2026-05-28 — Ajout de la routine /tendances
+
+Création de la commande `/tendances` : veille des produits qui montent à l'international (USA, Asie) et qui sont poussés par les créateurs sur les réseaux sociaux (TikTok, Instagram, YouTube). Filtrage selon la saturation du marché français. Sortie : 5 produits max avec angle pub, public cible et programme d'affiliation. À utiliser 1 à 2 fois par semaine.
+
+---
+
 ## 2026-05-28 — Installation interactive du Jarvis
 
 Première installation effectuée via le module `jarvis-install`. Profil renseigné :
