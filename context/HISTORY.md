@@ -4,6 +4,12 @@
 
 ---
 
+## 2026-05-28 — Ajout de la commande /contenu-jour (workflow CapCut)
+
+Création de la commande `/contenu-jour` qui génère en 1 clic le pack quotidien complet du projet Astro Fun : 12 horoscopes du jour (1 par signe), 1 tirage de tarot du jour, et 1 bonus astro lié à l'événement astro du moment. Chaque contenu inclut un script vidéo complet prêt à tourner sur CapCut (hook, corps, CTA, prompt visuel CapCut AI, voix off, ambiance musicale, hashtags, créneau de publication). Optimisé pour le workflow "tout sur CapCut" décidé par Marc pour démarrer.
+
+---
+
 ## 2026-05-28 — Lancement du projet Astro Fun (en parallèle de FriCom)
 
 Marc lance un projet secondaire de création de contenu astrologie ET tarot : un site fait avec l'IA + des vidéos courtes sur TikTok, Instagram et Facebook. Ce projet vient en plus de l'activité principale d'affiliation, il ne la remplace pas.

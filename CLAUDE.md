@@ -115,6 +115,12 @@ Claude va effectuer une veille des actualités du jour, filtrée selon mon conte
 
 Claude va analyser les tendances USA/Asie, les produits poussés par les créateurs sur TikTok/Instagram/YouTube, vérifier la saturation en France, et me sortir 5 produits maximum avec angle pub, public cible et programme d'affiliation. À utiliser 1 à 2 fois par semaine.
 
+### /contenu-jour
+
+**Objectif :** Générer en 1 clic mon pack quotidien complet pour le projet Astro Fun.
+
+Claude va produire en une seule commande : les 12 horoscopes du jour (1 par signe), 1 tirage de tarot du jour, et 1 bonus astro (lié à l'événement astro du moment). Chaque contenu inclut un script vidéo complet prêt à tourner sur CapCut (hook, corps, CTA, prompt visuel CapCut AI, voix off, ambiance musicale, hashtags, créneau de publication). À utiliser chaque matin avant ma session de production CapCut.
+
 ---
 
 ## Skills disponibles
