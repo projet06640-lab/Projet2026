@@ -4,6 +4,12 @@
 
 ---
 
+## 2026-05-28 — Activation du démarrage semi-automatique de session
+
+Marc a demandé d'automatiser le lancement de la routine matinale. Mise en place de l'option semi-automatique : à la première interaction de chaque nouvelle session, Claude propose désormais automatiquement de lancer la routine du matin (`/prime` + `/morning` + `/veille-ecommerce` + `/contenu-jour`). Marc tape juste "oui" et tout s'enchaîne. Instruction ajoutée dans CLAUDE.md (section "Critical Instruction: Démarrage automatique de session"). Le comportement ne se déclenche qu'une fois par session, et seulement si Marc n'envoie pas directement une demande précise.
+
+---
+
 ## 2026-05-28 — Ajout de 3 skills d'expertise + commande /veille-ecommerce
 
 Création de 3 nouvelles skills d'expertise :

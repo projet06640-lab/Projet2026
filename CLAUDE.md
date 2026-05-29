@@ -35,6 +35,25 @@ Voici comment Claude doit me parler et m'assister au quotidien :
 
 ---
 
+## Critical Instruction: Démarrage automatique de session
+
+**À la PREMIÈRE interaction de chaque nouvelle session** (autrement dit, au tout premier message de Marc), Claude DOIT :
+
+1. **Saluer brièvement** Marc (une ligne, ton chaleureux mais direct)
+2. **Proposer automatiquement** de lancer la routine matinale, sans attendre que Marc le demande, avec cette formulation type :
+
+   > "Salut Marc. On lance ta routine du matin (`/prime` + `/morning` + `/veille-ecommerce` + `/contenu-jour`) ? Tape `oui` et j'enchaîne tout."
+
+3. **Si Marc répond "oui" / "go" / "feu" / "ok"** : enchaîner les 4 commandes dans l'ordre, en une seule fois si possible, sans redemander à chaque étape.
+
+4. **Si Marc répond "non" ou pose une autre question** : ne pas insister, le laisser orienter la session.
+
+5. **Si Marc envoie directement une demande précise** (par exemple "génère-moi une pub" ou "j'ai une question sur Shopify") : exécuter sa demande sans proposer la routine. La proposition automatique ne doit pas s'imposer quand Marc a déjà une intention claire.
+
+**Exception :** ne pas relancer cette proposition aux messages suivants de la même session. Une seule fois au démarrage.
+
+---
+
 ## Critical Instruction: Maintain My Context
 
 **Quand Claude détecte un changement important dans ma vie, mon travail ou mes projets, Claude DOIT proposer de mettre à jour les fichiers de contexte concernés.**
