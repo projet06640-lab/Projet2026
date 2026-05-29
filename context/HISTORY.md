@@ -4,6 +4,17 @@
 
 ---
 
+## 2026-05-28 — Ajout de 3 skills d'expertise + commande /veille-ecommerce
+
+Création de 3 nouvelles skills d'expertise :
+- `expert-loi` : droit français pour FriCom + Astro Fun (mentions obligatoires, statut, TVA, RGPD, droits d'auteur, encadrement voyance)
+- `expert-ecommerce` : Shopify, choix de produits, conversions, fiscalité ecommerce, comparaison affiliation/dropshipping/stock
+- `expert-capcut` : guide pas à pas CapCut (structure type vidéo Astro Fun, fonctionnalités IA, templates, transitions, exports, workflow optimisé)
+
+Création de la commande `/veille-ecommerce` (veille quotidienne dédiée : Shopify, marché FR, fiscalité, outils). Ajoutée à la routine matinale entre `/morning` et `/contenu-jour`. Le Jarvis dispose maintenant de 6 commandes et 11 skills.
+
+---
+
 ## 2026-05-28 — Ajout de 4 skills supplémentaires (arsenal complet)
 
 Création de 4 nouvelles skills pour couvrir les besoins transversaux :

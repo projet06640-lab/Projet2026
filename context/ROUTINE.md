@@ -13,7 +13,10 @@ Claude recharge mon contexte (CLAUDE.md, CONTEXT.md, HISTORY.md). Indispensable 
 ### 2. `/morning` (5 min)
 Veille personnalisée du jour : actus IA, affiliation, e-commerce, Shopify, filtrées selon mes objectifs. Focus suggéré pour la journée.
 
-### 3. `/contenu-jour` (5 min)
+### 3. `/veille-ecommerce` (3 min)
+Veille spécifique ecommerce : Shopify, marché FR, fiscalité, outils. 3 à 5 actus utiles pour ma boutique.
+
+### 4. `/contenu-jour` (5 min)
 Pack complet Astro Fun : 12 horoscopes + 1 tirage tarot + 1 bonus astro. Tous les scripts vidéo prêts à tourner sur CapCut.
 
 ---
@@ -48,6 +51,7 @@ Quand un événement important se produit (premier palier d'abonnés atteint, pr
 TOUS LES JOURS — matin
 ├── /prime
 ├── /morning
+├── /veille-ecommerce
 ├── /contenu-jour
 └── Production CapCut + publication 3 réseaux
 

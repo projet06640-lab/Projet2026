@@ -116,6 +116,12 @@ Claude va effectuer une veille des actualités du jour, filtrée selon mon conte
 
 Claude va analyser les tendances USA/Asie, les produits poussés par les créateurs sur TikTok/Instagram/YouTube, vérifier la saturation en France, et me sortir 5 produits maximum avec angle pub, public cible et programme d'affiliation. À utiliser 1 à 2 fois par semaine.
 
+### /veille-ecommerce
+
+**Objectif :** Veille quotidienne dédiée ecommerce (Shopify, tendances marché France, fiscalité, plateformes, outils).
+
+Claude va me sortir 3 à 5 actus ecommerce vraiment utiles pour moi : évolutions de Shopify, comportements consommateurs FR, changements réglementaires (TVA, douanes), outils pertinents pour ma boutique. À utiliser chaque matin, en complément de `/morning` qui est plus large.
+
 ### /contenu-jour
 
 **Objectif :** Générer en 1 clic mon pack quotidien complet pour le projet Astro Fun.
@@ -155,6 +161,18 @@ Bilan hebdomadaire (typiquement dimanche soir). 5 questions structurées, synth�
 ### site-astrofun
 
 Aide à construire le site Astro Fun avec l'IA : choix de plateforme (WordPress recommandé), structure des pages, contenus prêts à coller, bases SEO, activation AdSense quand le trafic suffit. Activée quand je demande "aide-moi à monter mon site", "structure du site astro", "SEO", "AdSense".
+
+### expert-loi
+
+Expert en droit français pour mes 2 projets. Couvre mentions obligatoires sur les pubs, statut juridique FriCom, TVA, RGPD et obligations site web, droits d'auteur, et règles spécifiques aux contenus astrologiques (encadrement voyance). Activée quand je demande "est-ce que c'est légal", "TVA", "RGPD", "mentions obligatoires", "loi sur la voyance".
+
+### expert-ecommerce
+
+Expert ecommerce pour Shopify (que j'ai déjà) et tout le ecommerce en général. Couvre l'audit de boutique, le choix de produits gagnants, l'optimisation des conversions, la fiscalité ecommerce (TVA, OSS, douanes), et la comparaison entre affiliation / dropshipping / stock. Activée quand je demande "comment monter ma boutique", "optimiser Shopify", "TVA ecommerce", "dropshipping ou affiliation".
+
+### expert-capcut
+
+Expert CapCut pas à pas pour produire mes vidéos courtes. Couvre la structure type d'une vidéo Astro Fun, les fonctionnalités IA de CapCut (génération images, voix off, sous-titres, avatars), les templates mystiques/cosmiques, les transitions virales, l'export optimisé TikTok/Insta/Facebook, et le workflow rapide (5 vidéos en 1h30). Activée quand je demande "comment faire dans CapCut", "quel template", "quelle voix", "ma vidéo rend mal", "export TikTok".
 
 ---
 
