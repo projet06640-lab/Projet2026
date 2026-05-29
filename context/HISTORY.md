@@ -4,6 +4,12 @@
 
 ---
 
+## 2026-05-28 — Ajout de la skill pub-affiliation (FriCom)
+
+Création de la skill `pub-affiliation` dédiée au business principal de Marc (marketing d'affiliation via FriCom). 3 modes : Stratège (plan de campagne en 6 étapes), Chasseur (recherche de 5 produits à promouvoir avec programme d'affiliation et saturation France), Créateur (génération de pubs prêtes à publier avec accroche, script, visuel, hashtags, créneaux). Complète l'arsenal du Jarvis avec une skill métier sur le projet principal.
+
+---
+
 ## 2026-05-28 — Bilan de session : installation complète et premier script produit
 
 Première session productive du Jarvis. Bilan :

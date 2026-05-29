@@ -136,6 +136,10 @@ L'avantage : pas de bruit. Seulement ce qui me concerne vraiment, vu mes objecti
 
 Générateur de contenus astrologie + tarot pour TikTok, Instagram et Facebook. Angle hybride "mystique-relatable" (70% cosmique sérieux + 30% punchy accessible). Produit horoscopes, tirages de tarot, compatibilités, scripts vidéo prêts à tourner (hook, CTA, prompts pour mascottes IA animées, voix off, transitions CapCut, hashtags, créneaux de publication). Activée quand je demande un contenu astro, un tirage de tarot, une idée de vidéo, ou un horoscope. Sert mon projet secondaire **Astro Fun**.
 
+### pub-affiliation
+
+Stratège marketing d'affiliation pour **FriCom**. 3 modes : (1) **Stratège** : construit un plan de campagne complet en 6 étapes (niche → produits → audience → format → calendrier → KPIs), (2) **Chasseur** : recherche 5 produits à promouvoir avec leur programme d'affiliation, commission, saturation France, (3) **Créateur** : génère des pubs prêtes à publier (accroche + script vidéo + visuel + ciblage + hashtags + créneaux). Activée quand je demande un plan d'affiliation, une pub, une recherche de produit, ou tout ce qui touche au business FriCom.
+
 ---
 
 ## Getting Started
