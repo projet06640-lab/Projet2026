@@ -140,6 +140,22 @@ Générateur de contenus astrologie + tarot pour TikTok, Instagram et Facebook. 
 
 Stratège marketing d'affiliation pour **FriCom**. 3 modes : (1) **Stratège** : construit un plan de campagne complet en 6 étapes (niche → produits → audience → format → calendrier → KPIs), (2) **Chasseur** : recherche 5 produits à promouvoir avec leur programme d'affiliation, commission, saturation France, (3) **Créateur** : génère des pubs prêtes à publier (accroche + script vidéo + visuel + ciblage + hashtags + créneaux). Activée quand je demande un plan d'affiliation, une pub, une recherche de produit, ou tout ce qui touche au business FriCom.
 
+### apprentissage-ia
+
+Programme structuré d'apprentissage de Claude et Gemini sur 30 jours, avec un exercice pratique quotidien de 15 à 30 min lié à mes projets réels (FriCom ou Astro Fun). Activée quand je demande "mon exercice du jour", "fais-moi progresser sur Claude/Gemini". Sert mon objectif "Mois 1 : maîtrise Claude et Gemini".
+
+### analyse-stats
+
+Analyse mes statistiques TikTok/Instagram/Facebook (vues, clics, abonnés, conversions) et me propose 3 actions concrètes à tester la semaine d'après. Activée quand je partage des chiffres ou demande "analyse mes stats", "pourquoi ça marche pas".
+
+### bilan-hebdo
+
+Bilan hebdomadaire (typiquement dimanche soir). 5 questions structurées, synthèse en 4 blocs, 3 priorités pour la semaine suivante. Met à jour HISTORY.md pour suivre ma trajectoire dans le temps. Activée quand je demande "bilan de la semaine", "fais le point", "où j'en suis".
+
+### site-astrofun
+
+Aide à construire le site Astro Fun avec l'IA : choix de plateforme (WordPress recommandé), structure des pages, contenus prêts à coller, bases SEO, activation AdSense quand le trafic suffit. Activée quand je demande "aide-moi à monter mon site", "structure du site astro", "SEO", "AdSense".
+
 ---
 
 ## Getting Started

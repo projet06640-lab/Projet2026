@@ -4,6 +4,18 @@
 
 ---
 
+## 2026-05-28 — Ajout de 4 skills supplémentaires (arsenal complet)
+
+Création de 4 nouvelles skills pour couvrir les besoins transversaux :
+- `apprentissage-ia` : programme de 30 jours pour maîtriser Claude et Gemini (sert l'objectif Mois 1)
+- `analyse-stats` : analyse des statistiques réseaux sociaux et plan d'actions concrètes
+- `bilan-hebdo` : bilan hebdomadaire structuré avec 3 priorités pour la semaine d'après
+- `site-astrofun` : aide à la construction du site Astro Fun (plateforme, structure, contenu, SEO, AdSense)
+
+Le Jarvis dispose maintenant de 8 skills couvrant : actualités, tendances, marketing d'affiliation, contenu astro/tarot, pack quotidien, apprentissage IA, analyse stats, bilan hebdo, et site web.
+
+---
+
 ## 2026-05-28 — Ajout de la skill pub-affiliation (FriCom)
 
 Création de la skill `pub-affiliation` dédiée au business principal de Marc (marketing d'affiliation via FriCom). 3 modes : Stratège (plan de campagne en 6 étapes), Chasseur (recherche de 5 produits à promouvoir avec programme d'affiliation et saturation France), Créateur (génération de pubs prêtes à publier avec accroche, script, visuel, hashtags, créneaux). Complète l'arsenal du Jarvis avec une skill métier sur le projet principal.
