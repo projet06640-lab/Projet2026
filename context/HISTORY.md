@@ -10,6 +10,12 @@ Marc a demandé d'automatiser le lancement de la routine matinale. Mise en place
 
 ---
 
+## 2026-05-30 — Ajout de la skill creation-video-ia
+
+Création de la skill `creation-video-ia` : expert en génération de vidéos par IA. Compare les outils du marché (Sora 2, Veo 3, Kling 2.0, Runway Gen-4, Pika, Luma, CapCut AI) et recommande le bon selon le besoin. Génère des prompts ultra optimisés à copier-coller dans chaque outil. Guide le workflow complet (script → image → animation → CapCut) avec stratégie d'économie de crédits via des briques réutilisables (12 mascottes des signes + 5 fonds cosmiques + intro/outro de marque). Important : la skill ne génère pas les vidéos elle-même, elle me rend expert pour produire les prompts parfaits. Pour vraiment générer, Marc devra connecter un MCP server à un outil payant (étape suivante quand il sera prêt).
+
+---
+
 ## 2026-05-28 — Ajout de 3 skills d'expertise + commande /veille-ecommerce
 
 Création de 3 nouvelles skills d'expertise :

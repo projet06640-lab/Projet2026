@@ -193,6 +193,10 @@ Expert ecommerce pour Shopify (que j'ai déjà) et tout le ecommerce en généra
 
 Expert CapCut pas à pas pour produire mes vidéos courtes. Couvre la structure type d'une vidéo Astro Fun, les fonctionnalités IA de CapCut (génération images, voix off, sous-titres, avatars), les templates mystiques/cosmiques, les transitions virales, l'export optimisé TikTok/Insta/Facebook, et le workflow rapide (5 vidéos en 1h30). Activée quand je demande "comment faire dans CapCut", "quel template", "quelle voix", "ma vidéo rend mal", "export TikTok".
 
+### creation-video-ia
+
+Expert en génération de vidéos par IA. Compare les outils (Sora 2, Veo 3, Kling 2.0, Runway Gen-4, Pika, Luma) et recommande le bon selon mon besoin. Génère des prompts ultra optimisés à copier-coller dans chaque outil. Guide le workflow complet du script à la vidéo finale dans CapCut, avec stratégie d'économie de crédits (briques réutilisables). Activée quand je demande "quel outil pour générer cette vidéo", "prompt pour Sora/Kling/Runway", "animer ma mascotte", ou tout besoin de production vidéo IA.
+
 ---
 
 ## Getting Started
