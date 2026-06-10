@@ -1,0 +1,83 @@
+==================================================
+NOVÉA — « Cellular Light »
+PACK PRÊT À L'EMPLOI · Pollo AI / Seedance 2.0
+==================================================
+
+--------------------------------------------------
+RÉGLAGES POLLO AI (une seule fois)
+--------------------------------------------------
+- Modèle      : Seedance 2.0
+- Format      : 9:16 (TikTok/Reels)  |  16:9 si YouTube
+- Durée/clip  : ~5-6 s
+- Générer les 5 plans un par un, télécharger chaque clip.
+
+
+==================================================
+LES 5 PROMPTS (copier-coller)
+==================================================
+
+--- PLAN 1 — L'apparition (0-6 s) ---
+Cinematic macro shot, a single golden serum droplet falling in extreme slow motion against a deep black background, the droplet refracts light and bursts into glowing luminescent particles, rim light in glacier blue, shallow depth of field, hyper-detailed liquid, slow dolly-in, premium skincare commercial aesthetic, 8k, anamorphic lens flare
+
+--- PLAN 2 — Le flacon révélé (6-12 s) ---
+Elegant frosted-glass skincare bottle emerging from luminous mist, floating water droplets orbiting around it, slow 180-degree arc camera movement, soft glacier-blue and gold liquid reflections on the glass, futuristic minimalist product photography, dark studio background, volumetric light rays, ultra premium beauty commercial, 8k, cinematic
+
+--- PLAN 3 — La peau qui s'éveille (12-18 s) ---
+Extreme close-up of flawless glowing skin, thin lines of bio-luminescent light traveling across the epidermis like living circuits, soft subsurface glow in blue and gold, slow lateral tracking shot along the cheek, dewy hydrated texture, futuristic skincare science aesthetic, cinematic lighting, shallow depth of field, 8k hyper-detailed
+
+--- PLAN 4 — Le modèle (18-24 s) ---
+Cinematic beauty shot, a woman with radiant luminous skin slowly opening her eyes toward camera, golden glowing particles floating around her face, slow push-in toward her gaze, soft frontal beauty light with cool blue backlight, serene and confident expression, futuristic luxury skincare advertisement, dark elegant background, 8k, anamorphic, film grain
+
+--- PLAN 5 — Signature produit (24-30 s) ---
+Final hero product shot, NOVÉA skincare bottle centered, glowing logo forming from light particles above it, subtle floating camera motion, central halo of light, background fading to deep black, premium tagline space, luxury futuristic beauty commercial ending, cinematic, 8k, soft golden bloom
+
+
+==================================================
+TEXTES DE SURIMPRESSION (CapCut)
+==================================================
+Apparition douce, police fine type "Didot" ou "Cormorant", couleur blanc nacré.
+
+- Plan 1 (≈2 s)  : « Et si votre peau captait la lumière ? »
+- Plan 2 (≈7 s)  : « NOVÉA »
+- Plan 3 (≈13 s) : « Des peptides bio-luminescents. »
+- Plan 4 (≈19 s) : « La régénération à la vitesse de la lumière. »
+- Plan 5 (≈25 s) : « NOVÉA — La lumière sous votre peau. »
+                   (sous le logo, petit) « Nouveau · Sérum cellular light »
+
+CTA final (dernière seconde, sous le slogan) :
+  « Découvrir → lien en bio »
+
+
+==================================================
+MONTAGE CAPCUT
+==================================================
+- Assembler les 5 clips dans l'ordre.
+- Transitions par fondu lumineux (light leaks) en mode "Écran" entre chaque plan.
+- Logo NOVÉA incrusté sur le plan 5.
+- Musique : nappe ambient cinématique, montée progressive, whoosh + impact sur le plan 2,
+  silence-respiration avant le plan 4.
+- Sound design : goutte qui tombe, tintement cristallin, souffle léger.
+
+
+==================================================
+HASHTAGS
+==================================================
+TikTok / Reels (mix large + niche) :
+#skincare #soindelapeau #glowingskin #peauparfaite #routinebeaute
+#serum #beautytok #skincareroutine #peaulumineuse #cosmetique
+#beaute #skincaretok #novea #cellularlight #futurbeaute
+
+YouTube Shorts (tags) :
+skincare, soin de la peau, sérum, routine beauté, peau lumineuse,
+cosmétique futuriste, glowing skin, NOVÉA
+
+CRÉNEAUX DE PUBLICATION conseillés (heure FR) :
+- TikTok : 12h-13h ou 19h-21h
+- Instagram Reels : 18h-20h
+- YouTube Shorts : 17h-19h
+
+
+==================================================
+SLOGAN
+==================================================
+« NOVÉA — La lumière sous votre peau. »
