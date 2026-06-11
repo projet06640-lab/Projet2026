@@ -35,8 +35,8 @@
 ## Mes outils et environnement
 
 - **Claude** et **Gemini** (assistants IA)
-- **Shopify** (boutique / pages de vente)
-- **CapCut** (montage vidéo pour le contenu)
+- **Shopify** (boutique / pages de vente) — **abonnement payant souscrit**
+- **CapCut** (montage vidéo pour le contenu) — **abonnement 1 an souscrit**
 
 ## Mes préférences de travail
 
