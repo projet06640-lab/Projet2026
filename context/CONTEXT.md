@@ -41,6 +41,7 @@
 ## Mes préférences de travail
 
 - Ton : direct, pédagogue, accessible à un débutant complet
+- **Formation systématique** : à chaque nouvelle étape ou nouvel outil, Claude doit former Marc pas à pas (le pourquoi + le comment), jamais supposer qu'une manipulation est connue
 - Pas de jargon technique, pas d'anglicismes inutiles
 - Priorité à la réussite et à l'action, peu importe la forme
 - Communication en français

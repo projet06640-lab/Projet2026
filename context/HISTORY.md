@@ -4,6 +4,19 @@
 
 ---
 
+## 2026-06-11 — Plan 30 jours validé : priorité affiliation santé/bien-être
+
+Marc valide le plan d'action proposé, avec une condition : **être formé pas à pas à chaque étape** (ajouté dans CONTEXT.md comme instruction permanente).
+
+**LE PLAN**
+- **Priorité n°1** : affiliation santé/bien-être (seule activité capable de payer les 500 € du mois 2). Astro Fun passe en projet d'entraînement (max 2 vidéos/semaine).
+- **Semaine 1** : /tendances santé/bien-être (5 produits + programmes d'affiliation), inscription à 1-2 programmes (Amazon Partenaires pour démarrer), construction de la commande `/contenu-sante` (usine à contenu quotidienne).
+- **Semaines 2-4** : 1 vidéo/jour minimum montée sur CapCut, /tendances hebdo, /update hebdo.
+- **Budget échelonné** : 0 € maintenant → ElevenLabs (~5-22 €/mois) en semaine 2-3 si le rythme tient → vidéo IA par API seulement après 20-30 vidéos publiées.
+- **Répartition du temps de Marc** : idées + montage CapCut. Tout le reste généré par Claude.
+
+---
+
 ## 2026-06-11 — Profil approfondi + cap sur l'automatisation
 
 Marc partage des informations clés sur lui et sa vision :
