@@ -6,9 +6,10 @@
 
 ## Qui je suis
 
-- Marc, basé à Saint-Jeannet (France, fuseau Europe/Paris)
-- En reconversion professionnelle
+- Marc, **55 ans**, basé à Saint-Jeannet (France, fuseau Europe/Paris)
+- En reconversion professionnelle, **mis à son compte pour ne plus dépendre des autres**
 - Fondateur de **FriCom** (société déjà créée)
+- **Besoin de gagner sa vie le plus vite possible**, en travaillant **depuis chez lui**, via la création de contenu et les revenus publicitaires
 
 ## Ce que je fais
 
@@ -24,7 +25,7 @@
 
 ## Mes projets en cours
 
-- **FriCom — Marketing d'affiliation (projet principal)** : société créée, structure prête. Prochain jalon : lancer les premières campagnes d'affiliation une fois la maîtrise des outils acquise.
+- **FriCom — Marketing d'affiliation (projet principal)** : société créée, structure prête. **Niche choisie : santé / bien-être**, vendue uniquement via la publicité (rémunération sur les ventes/clics, **sans stock ni produit géré**). Prochain jalon : lancer les premières campagnes d'affiliation.
 - **Projet Astro Fun (projet secondaire, en parallèle)** : créer un site fait avec l'IA + des vidéos courtes (TikTok, Instagram, Facebook) sur l'**astrologie ET le tarot**. Angle hybride **"mystique-relatable"** : 70% ambiance cosmique sérieuse + 30% ton accessible et punchy (à mi-chemin entre Co-Star et un compte spirituel classique). Signature visuelle : 12 mascottes des signes générées et animées par IA (Gemini/Midjourney pour les designs, Kling AI ou Luma pour l'animation, ElevenLabs pour la voix, CapCut pour le montage). Monétisation par les revenus des vidéos (TikTok Creator Fund, programmes équivalents) et éventuellement AdSense sur le site quand il y aura du trafic. Pas d'affiliation ni de vente directe sur ce projet.
 
 ## Mes partenaires et collaborateurs clés
@@ -43,3 +44,5 @@
 - Pas de jargon technique, pas d'anglicismes inutiles
 - Priorité à la réussite et à l'action, peu importe la forme
 - Communication en français
+- **Philosophie d'automatisation** : produire beaucoup de contenu sans y passer des journées entières. Marc veut concentrer son temps sur deux choses, **trouver des idées** et **apprendre le montage vidéo (CapCut)**. Tout le reste (scripts, prompts, voix off, visuels, légendes, hashtags, planning de publication) doit être automatisé au maximum.
+- **Budget** : prêt à investir une partie de son argent dans des **clés API** pour se rapprocher de cette automatisation.

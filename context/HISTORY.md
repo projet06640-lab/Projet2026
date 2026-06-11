@@ -4,6 +4,35 @@
 
 ---
 
+## 2026-06-11 — Profil approfondi + cap sur l'automatisation
+
+Marc partage des informations clés sur lui et sa vision :
+
+**PROFIL PERSONNEL**
+- 55 ans, mis à son compte pour ne plus dépendre des autres
+- Besoin de gagner sa vie le plus vite possible, en travaillant depuis chez lui
+- Modèle économique : création de contenu + revenus publicitaires
+
+**NICHE AFFILIATION PRÉCISÉE (FriCom)**
+- Niche choisie : **santé / bien-être**, vendue via la publicité, sans stock ni produit géré (rémunération pub/affiliation)
+- En parallèle d'Astro Fun (astro + tarot), où il pense qu'il faut surfer sur la vague
+
+**VISION DE TRAVAIL**
+- Veut concentrer son temps sur deux choses : trouver des idées + apprendre le montage CapCut
+- Tout le reste (scripts, prompts, voix off, visuels, légendes, hashtags, planning) doit être automatisé au maximum
+- Prêt à investir de l'argent dans des clés API pour se rapprocher de cette automatisation
+
+**MISE AU POINT IMPORTANTE (discours de vérité)**
+- Clarifié qu'il n'existe pas de bouton magique "Claude fabrique la pub vidéo tout seul"
+- Partage réel des tâches établi : Claude = création (textes/prompts) ; outils dédiés = vidéo ; Marc = clics de génération + montage CapCut
+- 3 niveaux d'automatisation identifiés : créa texte (100% Claude, gratuit), navigateur piloté (fragile, déconseillé pour l'instant), API (vrai gain, demande budget + setup, à viser progressivement)
+- Décision : viser l'automatisation API progressivement, en commençant par les gains les plus rentables
+
+**PROCHAINE ÉTAPE**
+- Définir et mettre en place le premier maillon d'automatisation rentable (à arbitrer avec Marc)
+
+---
+
 ## 2026-05-28 — Bilan de session : installation complète et premier script produit
 
 Première session productive du Jarvis. Bilan :
