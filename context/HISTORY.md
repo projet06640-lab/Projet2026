@@ -4,6 +4,36 @@
 
 ---
 
+## 2026-06-11 — Jour 1 d'action : compte TikTok créé, formation CapCut demain
+
+**SESSION COMPLÈTE**
+
+**Matin** : Clarification du plan d'automatisation (le pipo démasqué), choix du produit n°1 (Calm Drinks), stratégie réseaux sociaux établie.
+
+**Après-midi en salle d'attente** : Discussion sur CapCut suffisant (voix off incluse), pas besoin ElevenLabs au démarrage.
+
+**Soir — ACTION** :
+- ✅ Décision : on part sur les **boissons relaxantes magnésium + ashwagandha** (commissions 15-30% via labos FR, saturation faible, contenu filmable sans visage)
+- ✅ Pack de démarrage complet créé : produit, programmes d'affiliation (Laboratoire Uma, Rue des Plantes, Anastore), 3 accroches pub, script vidéo n°1 prêt à tourner
+- ✅ **Nom de marque verrouillé : RituelCalme** (TikTok + Instagram + Linktree, même partout)
+- ✅ **Compte TikTok créé** : @RituelCalme.fr, compte personnel (pas business), bio mise : « Soirées calmes, nuits profondes 🌙 Mes rituels ⬇️ »
+- ✅ Vieille vidéo supprimée
+- ✅ Contenu dans Rééditions/Favoris laissé (normal, pas visible publiquement)
+
+**DEMAIN**
+- Photo de profil à mettre (simple : tasse de thé, bougie, ambiance zen)
+- **Formation CapCut complète** : importer, couper, raccorder, musique, sous-titres auto, ralenti, transitions, voix off (enregistrement de Marc lui-même), export TikTok
+- Tournage + montage vidéo n°1
+- Vérification paramètres de confidentialité TikTok
+
+**Notes pour demain** : Marc a choisi de laisser la formation CapCut pour demain (fatigué ce soir, très juste). Il a voix off incluse = Marc enregistrera sa propre voix (plus crédible pour le bien-être que voix IA). Au démarrage : pas d'ElevenLabs, pas de Pollo AI payant, juste CapCut + téléphone/caméra simple. Lean et efficace.
+
+**Stratégie réseaux** : Semaines 1-2 = TikTok à 100% (seul réseau qui booste les nouveaux comptes). Après = cross-post même vidéo sur Reels Instagram et YouTube Shorts (zéro effort supplémentaire).
+
+**Programmes d'affiliation** : s'inscrire seulement après 3-5 vidéos publiées (exigence Amazon Partenaires + crédibilité).
+
+---
+
 ## 2026-06-11 — Plan 30 jours validé : priorité affiliation santé/bien-être
 
 Marc valide le plan d'action proposé, avec une condition : **être formé pas à pas à chaque étape** (ajouté dans CONTEXT.md comme instruction permanente).
