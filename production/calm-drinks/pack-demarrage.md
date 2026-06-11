@@ -37,7 +37,9 @@
 ## 3. Le compte à créer
 
 - **Plateforme principale** : TikTok (+ republier sur Instagram Reels et YouTube Shorts, ce sont les mêmes vidéos)
-- **Idées de nom** : RituelCalme · MonSoirZen · LaPauseDuSoir (vérifier la disponibilité)
+- **NOM CHOISI : RituelCalme** ✅ (à garder identique sur TikTok, Instagram et Linktree)
+- **Type de compte** : TikTok = personnel ; Instagram = Créateur
+- **Stratégie** : on démarre 100% sur TikTok (semaines 1-2), puis cross-post sur Reels et Shorts
 - **Bio type** : « Des soirées plus calmes, des nuits plus profondes 🌙 Mes rituels et mes trouvailles ⬇️ »
 - **Le lien d'affiliation va dans la bio** (un seul lien, via Linktree ou Beacons si plusieurs)
 
