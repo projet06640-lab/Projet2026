@@ -1,5 +1,5 @@
 # 🔥 SESSION EN COURS — 12 juin 2026
-## Jour 2 : Profil TikTok finalisé ✅ + Formation CapCut à venir
+## Jour 2 : Profil TikTok finalisé ✅ + Formation CapCut commencée (à reprendre)
 
 ---
 
@@ -15,12 +15,26 @@
 
 ---
 
-## ⏳ PROCHAINE FOIS (au retour du dentiste)
+## ⏳ PROCHAINE FOIS (reprise formation CapCut)
 
-- **FORMATION CAPCUT** (1-2h) : importer, couper, musique, sous-titres, voix off (voix de Marc), export TikTok
-- Tournage vidéo n°1 (script déjà prêt dans pack-demarrage.md)
-- Montage et publication TikTok
-- (Optionnel plus tard : créer compte Instagram Créateur avec même logo + même nom)
+**ON S'EST ARRÊTÉ ICI** : Marc est dans l'éditeur CapCut (PC), projet « 0612 » créé. Il vient d'apprendre les 5 zones de l'écran (garde-manger en haut, timeline en bas, prévisu au centre, détails à droite). Prochaine micro-étape : **régler le format 9:16** en cliquant sur « Rapport » en bas à droite du cadre de prévisualisation.
+
+**Reste à faire dans la formation CapCut** :
+- Module 1 (fin) : régler le 9:16 (cliquer « Rapport »)
+- Module 2 : importer des plans
+- Module 3 : couper/déplacer
+- Module 4 : musique
+- Module 5 : voix off (voix de Marc)
+- Module 6 : sous-titres auto
+- Module 7 : transitions/ralenti
+- Module 8 : export TikTok
+
+**Puis** : tournage + montage + publication vidéo n°1 (script prêt dans pack-demarrage.md)
+
+**RAPPELS IMPORTANTS** :
+- On travaille UNIQUEMENT sur CapCut version PC installée (pas web). Décision verrouillée.
+- Crédits CapCut : Marc a 1400 crédits/mois (compte marco5821, Pro jusqu'au 01/06/2027). Le montage normal = 0 crédit. Éviter tout ce qui a le badge « AI » + Dreamina + Avatar IA (ça mange les crédits).
+- Méthode de formation : Marc envoie des captures d'écran, je guide sur SON écran.
 
 ---
 
