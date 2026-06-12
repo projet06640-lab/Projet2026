@@ -1,28 +1,26 @@
-# 🔥 SESSION EN COURS — 11 juin 2026
-## Jour 1 : Compte TikTok @RituelCalme.fr ✅ + Formation CapCut demain
+# 🔥 SESSION EN COURS — 12 juin 2026
+## Jour 2 : Profil TikTok finalisé ✅ + Formation CapCut à venir
 
 ---
 
-## ✅ Ce qu'on a fait aujourd'hui
+## ✅ Ce qu'on a fait (Jour 1 + Jour 2 matin)
 
 - Choix produit : **Calm Drinks** (boissons magnésium + ashwagandha)
-- Compte TikTok créé : **@RituelCalme.fr**
-- Bio mise : « Soirées calmes, nuits profondes 🌙 Mes rituels ⬇️ »
+- Compte TikTok créé : **@RituelCalme.fr** (compte personnel, PUBLIC)
+- Bio : « Soirées calmes, nuits profondes 🌙 Mes rituels ⬇️ »
 - Vieille vidéo supprimée
+- **Confidentialité vérifiée** : compte public ✅
+- **Logo créé et posé** : croissant de lune doré sur fond bleu nuit (Canva, design ID DAHMWrfBPb0)
 - Pack de démarrage complet : 3 accroches, script vidéo n°1 prêt
 
 ---
 
-## ⏳ À faire DEMAIN
+## ⏳ PROCHAINE FOIS (au retour du dentiste)
 
-**Matin rapide (15 min)**
-1. Photo de profil (tasse de thé / bougie / ambiance zen)
-2. Vérifier paramètres de confidentialité TikTok
-
-**Après-midi** 
-- **FORMATION CAPCUT** (1-2h) : importer, couper, musique, sous-titres, voix off
-- Tournage vidéo n°1 (script déjà prêt)
+- **FORMATION CAPCUT** (1-2h) : importer, couper, musique, sous-titres, voix off (voix de Marc), export TikTok
+- Tournage vidéo n°1 (script déjà prêt dans pack-demarrage.md)
 - Montage et publication TikTok
+- (Optionnel plus tard : créer compte Instagram Créateur avec même logo + même nom)
 
 ---
 
