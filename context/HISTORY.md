@@ -4,6 +4,20 @@
 
 ---
 
+## 2026-06-12 — Jour 2 : profil TikTok finalisé + formation CapCut lancée
+
+- Confidentialité TikTok réglée : compte **public** ✅
+- **Logo créé et posé** : croissant de lune doré sur fond bleu nuit (généré via Canva, design ID DAHMWrfBPb0)
+- **Crédits CapCut élucidés** : Marc a 1400 crédits/mois (compte marco5821, Pro jusqu'au 01/06/2027). Le montage normal (couper, musique, texte, voix, sous-titres) = 0 crédit. Les fonctions IA (Dreamina, Avatar IA, tout ce qui a le badge « AI ») mangent les crédits, on les évite.
+- **Décision verrouillée** : on travaille uniquement sur CapCut version PC installée (pas la version web), pour arrêter de se disperser entre les ergonomies différentes.
+- **Formation CapCut commencée** : projet « 0612 » créé, zones de l'écran apprises (haut = ingrédients, bas = timeline, centre = prévisu, droite = réglages). Arrêt juste avant le réglage du format 9:16.
+- **Fiche de formation CapCut créée** : `production/calm-drinks/formation-capcut.md` (antisèche 8 modules, réutilisable).
+- Prochaine étape : finir la formation CapCut (9:16 → import → montage → voix → sous-titres → export), puis tournage + montage + publication de la vidéo n°1.
+
+**Note pédagogique** : méthode de formation rodée = Marc envoie des captures d'écran, Claude le guide sur SON écran réel (les applis n'ont pas la même ergonomie PC/téléphone). Marc progresse vers l'autonomie.
+
+---
+
 ## 2026-06-11 — Jour 1 d'action : compte TikTok créé, formation CapCut demain
 
 **SESSION COMPLÈTE**
