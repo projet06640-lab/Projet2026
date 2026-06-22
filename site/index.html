@@ -13,20 +13,22 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&family=Fredoka:wght@500;600;700&display=swap" rel="stylesheet" />
 
 <style>
   :root {
     --bg-deep: #0a0613;
-    --bg-mid: #160d2e;
+    --bg-mid: #1c1030;
     --violet: #6d4aff;
     --violet-soft: #9d7bff;
-    --gold: #f6c87a;
-    --gold-bright: #ffd98a;
-    --text: #ece8ff;
-    --text-dim: #b3a9d4;
+    --gold: #ff9e3d;
+    --gold-bright: #ffb55c;
+    --orange: #ff7a1a;
+    --orange-deep: #ff6a00;
+    --text: #f3ecff;
+    --text-dim: #c1b4dc;
     --card: rgba(255, 255, 255, 0.04);
-    --card-border: rgba(157, 123, 255, 0.22);
+    --card-border: rgba(255, 154, 61, 0.28);
   }
 
   * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -34,14 +36,15 @@
   html { scroll-behavior: smooth; }
 
   body {
-    font-family: "Outfit", system-ui, sans-serif;
+    font-family: "Comic Neue", "Comic Sans MS", system-ui, sans-serif;
     background: var(--bg-deep);
     color: var(--text);
     line-height: 1.6;
     overflow-x: hidden;
   }
 
-  h1, h2, h3, .serif { font-family: "Cinzel", serif; letter-spacing: 0.5px; }
+  h1, h2, h3, .serif { font-family: "Fredoka", "Comic Neue", "Comic Sans MS", sans-serif; letter-spacing: 0.3px; }
+  .logo { font-family: "Fredoka", "Comic Neue", sans-serif; }
 
   /* ----- Fond étoilé animé ----- */
   #stars {
@@ -49,8 +52,9 @@
     inset: 0;
     z-index: -2;
     background:
-      radial-gradient(ellipse at 20% 0%, #2a1758 0%, transparent 55%),
-      radial-gradient(ellipse at 80% 100%, #1b1142 0%, transparent 55%),
+      radial-gradient(ellipse at 18% 0%, #3a1d12 0%, transparent 52%),
+      radial-gradient(ellipse at 85% 12%, #2a1758 0%, transparent 50%),
+      radial-gradient(ellipse at 80% 100%, #2a1410 0%, transparent 55%),
       linear-gradient(180deg, var(--bg-deep) 0%, var(--bg-mid) 50%, var(--bg-deep) 100%);
   }
   #starCanvas { position: fixed; inset: 0; z-index: -1; }
@@ -63,8 +67,8 @@
     z-index: -1;
     pointer-events: none;
   }
-  .glow.one { width: 360px; height: 360px; background: var(--violet); top: -80px; left: -60px; }
-  .glow.two { width: 300px; height: 300px; background: var(--gold); bottom: 10%; right: -80px; opacity: 0.18; }
+  .glow.one { width: 380px; height: 380px; background: var(--orange); top: -90px; left: -60px; opacity: 0.45; }
+  .glow.two { width: 320px; height: 320px; background: var(--orange-deep); bottom: 8%; right: -80px; opacity: 0.32; }
 
   .wrap { max-width: 1060px; margin: 0 auto; padding: 0 22px; }
 
@@ -92,7 +96,7 @@
   }
   .hero h1 {
     font-size: clamp(2.1rem, 5.5vw, 3.7rem); line-height: 1.12; font-weight: 700;
-    background: linear-gradient(120deg, #fff 20%, var(--gold-bright) 100%);
+    background: linear-gradient(120deg, #fff 10%, var(--gold-bright) 55%, var(--orange-deep) 100%);
     -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
   }
   .hero p.lead {
@@ -119,11 +123,11 @@
   .btn {
     cursor: pointer; border: none; font-family: inherit; font-weight: 600;
     padding: 16px 28px; border-radius: 14px; font-size: 1rem;
-    color: #1a0e34; background: linear-gradient(120deg, var(--gold-bright), var(--gold));
+    color: #2a0f00; background: linear-gradient(120deg, var(--gold-bright), var(--orange-deep));
     transition: transform 0.15s, box-shadow 0.2s;
-    box-shadow: 0 8px 24px rgba(246,200,122,0.28);
+    box-shadow: 0 8px 24px rgba(255,122,26,0.4);
   }
-  .btn:hover { transform: translateY(-2px); box-shadow: 0 12px 30px rgba(246,200,122,0.4); }
+  .btn:hover { transform: translateY(-2px); box-shadow: 0 12px 32px rgba(255,122,26,0.55); }
   .micro { font-size: 0.82rem; color: var(--text-dim); margin-top: 14px; }
   .form-success {
     display: none; margin: 38px auto 0; max-width: 480px; padding: 18px 22px;
@@ -169,7 +173,7 @@
   /* ----- Bloc tarot ----- */
   .tarot-block {
     display: flex; align-items: center; gap: 40px; flex-wrap: wrap;
-    background: linear-gradient(120deg, rgba(109,74,255,0.14), rgba(246,200,122,0.06));
+    background: linear-gradient(120deg, rgba(255,122,26,0.16), rgba(109,74,255,0.10));
     border: 1px solid var(--card-border); border-radius: 24px; padding: 44px;
   }
   .tarot-block .txt { flex: 1 1 320px; }
@@ -359,7 +363,7 @@
         const tw = 0.4 + Math.abs(Math.sin(st.a)) * 0.6;
         ctx.beginPath();
         ctx.arc(st.x, st.y, st.r, 0, Math.PI * 2);
-        ctx.fillStyle = "rgba(246, 220, 160, " + tw + ")";
+        ctx.fillStyle = "rgba(255, 196, 130, " + tw + ")";
         ctx.fill();
       }
       requestAnimationFrame(draw);
