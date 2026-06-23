@@ -172,7 +172,8 @@
     gap: 14px;
   }
   .sign {
-    position: relative; overflow: hidden;
+    position: relative; overflow: hidden; width: 100%;
+    font-family: inherit; cursor: pointer; display: block;
     text-decoration: none; color: var(--text); text-align: center;
     padding: 24px 12px; border-radius: 18px;
     background: linear-gradient(180deg, rgba(255,255,255,0.08), rgba(255,255,255,0.015));
@@ -280,6 +281,44 @@
 
   .fade { opacity: 0; transform: translateY(24px); transition: opacity 0.7s ease, transform 0.7s ease; }
   .fade.in { opacity: 1; transform: none; }
+
+  /* ----- Fenêtre modale (signe) ----- */
+  .modal-overlay {
+    position: fixed; inset: 0; z-index: 50;
+    display: flex; align-items: center; justify-content: center; padding: 22px;
+    background: rgba(6,3,14,0.72); backdrop-filter: blur(6px);
+    opacity: 0; visibility: hidden; transition: opacity 0.25s ease, visibility 0.25s;
+  }
+  .modal-overlay.open { opacity: 1; visibility: visible; }
+  .modal {
+    position: relative; width: 100%; max-width: 380px; text-align: center;
+    padding: 40px 30px 34px; border-radius: 24px;
+    background: linear-gradient(180deg, #241247, #140b2c);
+    border: 1px solid rgba(255,154,61,0.45);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.14), 0 30px 70px rgba(0,0,0,0.65), 0 0 50px rgba(255,106,0,0.20);
+    transform: translateY(20px) scale(0.96); transition: transform 0.28s ease;
+  }
+  .modal-overlay.open .modal { transform: none; }
+  .modal-close {
+    position: absolute; top: 14px; right: 16px; border: none; cursor: pointer;
+    background: rgba(255,255,255,0.08); color: var(--text); width: 34px; height: 34px;
+    border-radius: 50%; font-size: 1rem; line-height: 1; transition: background 0.2s, transform 0.15s;
+  }
+  .modal-close:hover { background: rgba(255,122,26,0.35); transform: rotate(90deg); }
+  .modal-glyph {
+    font-size: 3.6rem; color: var(--gold-bright); line-height: 1;
+    text-shadow: 0 3px 18px rgba(255,122,26,0.7); margin-bottom: 6px;
+  }
+  .modal h3 { font-size: 1.7rem; }
+  .modal .modal-dates { display: block; color: var(--text-dim); font-size: 0.9rem; margin-top: 4px; }
+  .modal .modal-elem {
+    display: inline-block; margin: 14px 0 4px; padding: 5px 14px; border-radius: 999px;
+    font-size: 0.8rem; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase;
+    background: linear-gradient(180deg, rgba(255,154,61,0.25), rgba(255,255,255,0.04));
+    border: 1px solid rgba(255,154,61,0.4); color: var(--gold-bright);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.2);
+  }
+  .modal p { color: var(--text); margin: 14px 0 24px; font-size: 1.02rem; line-height: 1.55; }
 </style>
 </head>
 <body>
@@ -329,18 +368,18 @@
       <p>Chaque signe a sa mascotte, son énergie, son ambiance du moment. Trouve le tien.</p>
     </div>
     <div class="signs">
-      <a class="sign fade" href="#reseaux"><span class="glyph">♈</span><span class="name">Bélier</span><span class="dates">21 mars – 19 avr</span></a>
-      <a class="sign fade" href="#reseaux"><span class="glyph">♉</span><span class="name">Taureau</span><span class="dates">20 avr – 20 mai</span></a>
-      <a class="sign fade" href="#reseaux"><span class="glyph">♊</span><span class="name">Gémeaux</span><span class="dates">21 mai – 20 juin</span></a>
-      <a class="sign fade" href="#reseaux"><span class="glyph">♋</span><span class="name">Cancer</span><span class="dates">21 juin – 22 juil</span></a>
-      <a class="sign fade" href="#reseaux"><span class="glyph">♌</span><span class="name">Lion</span><span class="dates">23 juil – 22 août</span></a>
-      <a class="sign fade" href="#reseaux"><span class="glyph">♍</span><span class="name">Vierge</span><span class="dates">23 août – 22 sept</span></a>
-      <a class="sign fade" href="#reseaux"><span class="glyph">♎</span><span class="name">Balance</span><span class="dates">23 sept – 22 oct</span></a>
-      <a class="sign fade" href="#reseaux"><span class="glyph">♏</span><span class="name">Scorpion</span><span class="dates">23 oct – 21 nov</span></a>
-      <a class="sign fade" href="#reseaux"><span class="glyph">♐</span><span class="name">Sagittaire</span><span class="dates">22 nov – 21 déc</span></a>
-      <a class="sign fade" href="#reseaux"><span class="glyph">♑</span><span class="name">Capricorne</span><span class="dates">22 déc – 19 janv</span></a>
-      <a class="sign fade" href="#reseaux"><span class="glyph">♒</span><span class="name">Verseau</span><span class="dates">20 janv – 18 févr</span></a>
-      <a class="sign fade" href="#reseaux"><span class="glyph">♓</span><span class="name">Poissons</span><span class="dates">19 févr – 20 mars</span></a>
+      <button class="sign fade" type="button" data-glyph="♈" data-name="Bélier" data-dates="21 mars – 19 avril" data-elem="Feu" data-vibe="Tu fonces, tu n'attends personne. Aujourd'hui, ton énergie ouvre les portes : lance ce que tu repousses depuis trop longtemps."><span class="glyph">♈</span><span class="name">Bélier</span><span class="dates">21 mars – 19 avr</span></button>
+      <button class="sign fade" type="button" data-glyph="♉" data-name="Taureau" data-dates="20 avril – 20 mai" data-elem="Terre" data-vibe="Calme et tenace. Ce que tu construis aujourd'hui tiendra dans le temps. Avance à ton rythme, il est le bon."><span class="glyph">♉</span><span class="name">Taureau</span><span class="dates">20 avr – 20 mai</span></button>
+      <button class="sign fade" type="button" data-glyph="♊" data-name="Gémeaux" data-dates="21 mai – 20 juin" data-elem="Air" data-vibe="Deux idées à la seconde. Ta curiosité va t'emmener loin aujourd'hui, suis la conversation qui t'allume."><span class="glyph">♊</span><span class="name">Gémeaux</span><span class="dates">21 mai – 20 juin</span></button>
+      <button class="sign fade" type="button" data-glyph="♋" data-name="Cancer" data-dates="21 juin – 22 juillet" data-elem="Eau" data-vibe="Ton intuition est ton radar. Écoute ce que ton cœur te souffle, il a souvent raison avant ta tête."><span class="glyph">♋</span><span class="name">Cancer</span><span class="dates">21 juin – 22 juil</span></button>
+      <button class="sign fade" type="button" data-glyph="♌" data-name="Lion" data-dates="23 juillet – 22 août" data-elem="Feu" data-vibe="Tu brilles sans forcer. Aujourd'hui la lumière est sur toi : assume, on n'attend que ça de toi."><span class="glyph">♌</span><span class="name">Lion</span><span class="dates">23 juil – 22 août</span></button>
+      <button class="sign fade" type="button" data-glyph="♍" data-name="Vierge" data-dates="23 août – 22 septembre" data-elem="Terre" data-vibe="L'œil pour le détail. Tu remets de l'ordre là où ça compte, et ça te libère l'esprit pour la suite."><span class="glyph">♍</span><span class="name">Vierge</span><span class="dates">23 août – 22 sept</span></button>
+      <button class="sign fade" type="button" data-glyph="♎" data-name="Balance" data-dates="23 septembre – 22 octobre" data-elem="Air" data-vibe="Tu cherches l'équilibre. Une belle harmonie se dessine aujourd'hui : dis oui à ce qui t'apaise."><span class="glyph">♎</span><span class="name">Balance</span><span class="dates">23 sept – 22 oct</span></button>
+      <button class="sign fade" type="button" data-glyph="♏" data-name="Scorpion" data-dates="23 octobre – 21 novembre" data-elem="Eau" data-vibe="Intense et magnétique. Rien ne t'échappe en ce moment, ta lucidité est ton super-pouvoir."><span class="glyph">♏</span><span class="name">Scorpion</span><span class="dates">23 oct – 21 nov</span></button>
+      <button class="sign fade" type="button" data-glyph="♐" data-name="Sagittaire" data-dates="22 novembre – 21 décembre" data-elem="Feu" data-vibe="L'aventure t'appelle. Vise loin, l'univers suit ton élan : ose la grande idée d'aujourd'hui."><span class="glyph">♐</span><span class="name">Sagittaire</span><span class="dates">22 nov – 21 déc</span></button>
+      <button class="sign fade" type="button" data-glyph="♑" data-name="Capricorne" data-dates="22 décembre – 19 janvier" data-elem="Terre" data-vibe="Ambitieux et solide. Tes efforts paient, garde le cap : le sommet est plus proche que tu ne crois."><span class="glyph">♑</span><span class="name">Capricorne</span><span class="dates">22 déc – 19 janv</span></button>
+      <button class="sign fade" type="button" data-glyph="♒" data-name="Verseau" data-dates="20 janvier – 18 février" data-elem="Air" data-vibe="Esprit libre, idées en avance. Ta différence est ta force aujourd'hui : ne la lisse surtout pas."><span class="glyph">♒</span><span class="name">Verseau</span><span class="dates">20 janv – 18 févr</span></button>
+      <button class="sign fade" type="button" data-glyph="♓" data-name="Poissons" data-dates="19 février – 20 mars" data-elem="Eau" data-vibe="Rêveur et sensible. Ton imagination ouvre des portes inattendues : note l'idée qui te traverse."><span class="glyph">♓</span><span class="name">Poissons</span><span class="dates">19 févr – 20 mars</span></button>
     </div>
   </section>
 
@@ -402,6 +441,19 @@
 
 </div>
 
+<!-- ===== FENÊTRE D'UN SIGNE ===== -->
+<div class="modal-overlay" id="signModal" aria-hidden="true">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="mName">
+    <button class="modal-close" id="modalClose" aria-label="Fermer">✕</button>
+    <div class="modal-glyph" id="mGlyph">♈</div>
+    <h3 id="mName">Bélier</h3>
+    <span class="modal-dates" id="mDates"></span>
+    <span class="modal-elem" id="mElem"></span>
+    <p id="mVibe"></p>
+    <a href="#reseaux" class="btn" id="mCta" style="text-decoration:none;display:inline-block;">Voir mes vidéos ✦</a>
+  </div>
+</div>
+
 <footer>
   <div class="wrap">
     <div class="logo">Astro<span style="color:var(--gold)"> Fun</span> ✦</div>
@@ -418,6 +470,25 @@
     let stars = [];
     let shooting = [];   // étoiles filantes
     let comets = [];     // comètes (plus grosses, plus lentes)
+    let glyphs = [];     // symboles du zodiaque qui descendent
+
+    const ZODIAC = ["♈","♉","♊","♋","♌","♍","♎","♏","♐","♑","♒","♓"];
+
+    function makeGlyph(spread) {
+      const size = 22 + Math.random() * 30;
+      return {
+        char: ZODIAC[Math.floor(Math.random() * ZODIAC.length)],
+        x: Math.random() * canvas.width,
+        y: spread ? Math.random() * canvas.height : -size,
+        size: size,
+        speed: 0.22 + Math.random() * 0.55,
+        drift: Math.random() * Math.PI * 2,
+        driftSpeed: 0.004 + Math.random() * 0.009,
+        rot: (Math.random() - 0.5) * 0.5,
+        rotSpeed: (Math.random() - 0.5) * 0.006,
+        alpha: 0.09 + Math.random() * 0.16,
+      };
+    }
 
     function resize() {
       canvas.width = window.innerWidth;
@@ -430,6 +501,8 @@
         a: Math.random(),
         s: Math.random() * 0.02 + 0.004,
       }));
+      const gcount = Math.max(7, Math.floor(canvas.width / 150));
+      glyphs = Array.from({ length: gcount }, () => makeGlyph(true));
     }
 
     // ----- Étoile filante : rapide, fine, traînée courte -----
@@ -491,6 +564,24 @@
         ctx.fill();
       }
 
+      // symboles du zodiaque qui descendent en arrière-plan
+      ctx.textAlign = "center";
+      ctx.textBaseline = "middle";
+      for (const g of glyphs) {
+        g.y += g.speed;
+        g.drift += g.driftSpeed;
+        g.x += Math.sin(g.drift) * 0.5;
+        g.rot += g.rotSpeed;
+        ctx.save();
+        ctx.translate(g.x, g.y);
+        ctx.rotate(g.rot);
+        ctx.font = g.size + "px serif";
+        ctx.fillStyle = "rgba(255, 154, 61, " + g.alpha + ")";
+        ctx.fillText(g.char, 0, 0);
+        ctx.restore();
+        if (g.y - g.size > canvas.height) Object.assign(g, makeGlyph(false));
+      }
+
       // comètes
       for (let i = comets.length - 1; i >= 0; i--) {
         const c = comets[i];
@@ -545,6 +636,43 @@
     });
   }, { threshold: 0.15 });
   document.querySelectorAll(".fade").forEach((el) => io.observe(el));
+
+  /* ----- Signes interactifs : fenêtre au clic ----- */
+  (function () {
+    const modal = document.getElementById("signModal");
+    const elClose = document.getElementById("modalClose");
+    const mGlyph = document.getElementById("mGlyph");
+    const mName = document.getElementById("mName");
+    const mDates = document.getElementById("mDates");
+    const mElem = document.getElementById("mElem");
+    const mVibe = document.getElementById("mVibe");
+    const elemEmoji = { "Feu": "🔥", "Terre": "🌱", "Air": "🌬️", "Eau": "💧" };
+
+    function open(btn) {
+      mGlyph.textContent = btn.dataset.glyph;
+      mName.textContent = btn.dataset.name;
+      mDates.textContent = btn.dataset.dates;
+      const el = btn.dataset.elem;
+      mElem.textContent = (elemEmoji[el] || "") + " Élément " + el;
+      mVibe.textContent = btn.dataset.vibe;
+      modal.classList.add("open");
+      modal.setAttribute("aria-hidden", "false");
+      elClose.focus();
+    }
+    function close() {
+      modal.classList.remove("open");
+      modal.setAttribute("aria-hidden", "true");
+    }
+
+    document.querySelectorAll(".sign").forEach((btn) => {
+      btn.addEventListener("click", () => open(btn));
+    });
+    elClose.addEventListener("click", close);
+    modal.addEventListener("click", (e) => { if (e.target === modal) close(); });
+    document.addEventListener("keydown", (e) => { if (e.key === "Escape") close(); });
+    // fermer aussi quand on clique sur "Voir mes vidéos"
+    document.getElementById("mCta").addEventListener("click", close);
+  })();
 
   /* ----- Carte de tarot (avant-goût) ----- */
   const cartes = [
