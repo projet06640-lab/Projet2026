@@ -416,6 +416,9 @@
     const canvas = document.getElementById("starCanvas");
     const ctx = canvas.getContext("2d");
     let stars = [];
+    let shooting = [];   // étoiles filantes
+    let comets = [];     // comètes (plus grosses, plus lentes)
+
     function resize() {
       canvas.width = window.innerWidth;
       canvas.height = window.innerHeight;
@@ -428,8 +431,57 @@
         s: Math.random() * 0.02 + 0.004,
       }));
     }
+
+    // ----- Étoile filante : rapide, fine, traînée courte -----
+    function spawnShooting() {
+      const fromLeft = Math.random() < 0.5;
+      const startY = Math.random() * canvas.height * 0.5;
+      const speed = 9 + Math.random() * 6;
+      shooting.push({
+        x: fromLeft ? -50 : canvas.width + 50,
+        y: startY,
+        vx: (fromLeft ? 1 : -1) * speed,
+        vy: speed * (0.35 + Math.random() * 0.3),
+        len: 90 + Math.random() * 80,
+        life: 1,
+      });
+    }
+
+    // ----- Comète : plus grosse, plus lente, longue traînée + halo -----
+    function spawnComet() {
+      const fromLeft = Math.random() < 0.5;
+      const startY = Math.random() * canvas.height * 0.45;
+      const speed = 3.2 + Math.random() * 1.8;
+      comets.push({
+        x: fromLeft ? -80 : canvas.width + 80,
+        y: startY,
+        vx: (fromLeft ? 1 : -1) * speed,
+        vy: speed * (0.4 + Math.random() * 0.25),
+        len: 180 + Math.random() * 120,
+        head: 2.6 + Math.random() * 1.6,
+        life: 1,
+      });
+    }
+
+    function drawStreak(o, headColor, tailColor) {
+      const tailX = o.x - o.vx * (o.len / Math.hypot(o.vx, o.vy));
+      const tailY = o.y - o.vy * (o.len / Math.hypot(o.vx, o.vy));
+      const grad = ctx.createLinearGradient(o.x, o.y, tailX, tailY);
+      grad.addColorStop(0, headColor.replace("ALPHA", o.life));
+      grad.addColorStop(1, tailColor.replace("ALPHA", "0"));
+      ctx.strokeStyle = grad;
+      ctx.lineWidth = o.head || 1.6;
+      ctx.lineCap = "round";
+      ctx.beginPath();
+      ctx.moveTo(o.x, o.y);
+      ctx.lineTo(tailX, tailY);
+      ctx.stroke();
+    }
+
     function draw() {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+      // étoiles scintillantes
       for (const st of stars) {
         st.a += st.s;
         const tw = 0.4 + Math.abs(Math.sin(st.a)) * 0.6;
@@ -438,10 +490,48 @@
         ctx.fillStyle = "rgba(255, 196, 130, " + tw + ")";
         ctx.fill();
       }
+
+      // comètes
+      for (let i = comets.length - 1; i >= 0; i--) {
+        const c = comets[i];
+        c.x += c.vx; c.y += c.vy;
+        drawStreak(c, "rgba(255,180,110,ALPHA)", "rgba(255,106,0,ALPHA)");
+        // halo lumineux sur la tête
+        const halo = ctx.createRadialGradient(c.x, c.y, 0, c.x, c.y, c.head * 4);
+        halo.addColorStop(0, "rgba(255,210,150,0.9)");
+        halo.addColorStop(1, "rgba(255,140,40,0)");
+        ctx.fillStyle = halo;
+        ctx.beginPath();
+        ctx.arc(c.x, c.y, c.head * 4, 0, Math.PI * 2);
+        ctx.fill();
+        if (c.x < -120 || c.x > canvas.width + 120 || c.y > canvas.height + 120) comets.splice(i, 1);
+      }
+
+      // étoiles filantes
+      for (let i = shooting.length - 1; i >= 0; i--) {
+        const s = shooting[i];
+        s.x += s.vx; s.y += s.vy;
+        drawStreak(s, "rgba(255,235,200,ALPHA)", "rgba(255,150,60,ALPHA)");
+        if (s.x < -120 || s.x > canvas.width + 120 || s.y > canvas.height + 120) shooting.splice(i, 1);
+      }
+
       requestAnimationFrame(draw);
     }
+
+    // déclenchements aléatoires
+    function loopShooting() {
+      if (shooting.length < 3) spawnShooting();
+      setTimeout(loopShooting, 1400 + Math.random() * 2600);
+    }
+    function loopComet() {
+      if (comets.length < 1) spawnComet();
+      setTimeout(loopComet, 9000 + Math.random() * 9000);
+    }
+
     resize();
     draw();
+    setTimeout(loopShooting, 1200);
+    setTimeout(loopComet, 3500);
     window.addEventListener("resize", resize);
   })();
 
