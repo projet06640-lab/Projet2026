@@ -486,7 +486,10 @@
         driftSpeed: 0.004 + Math.random() * 0.009,
         rot: (Math.random() - 0.5) * 0.5,
         rotSpeed: (Math.random() - 0.5) * 0.006,
-        alpha: 0.09 + Math.random() * 0.16,
+        alpha: 0.12 + Math.random() * 0.16,
+        pulse: Math.random() * Math.PI * 2,
+        pulseSpeed: 0.015 + Math.random() * 0.025,
+        scale: 0,
       };
     }
 
@@ -572,11 +575,18 @@
         g.drift += g.driftSpeed;
         g.x += Math.sin(g.drift) * 0.5;
         g.rot += g.rotSpeed;
+        g.pulse += g.pulseSpeed;
+        const beat = Math.abs(Math.sin(g.pulse));        // respiration 0 -> 1
+        const a = g.alpha * (0.5 + 0.5 * beat);          // l'opacité palpite
+        const sc = 1 + beat * 0.12;                      // léger gonflement
         ctx.save();
         ctx.translate(g.x, g.y);
         ctx.rotate(g.rot);
+        ctx.scale(sc, sc);
         ctx.font = g.size + "px serif";
-        ctx.fillStyle = "rgba(255, 154, 61, " + g.alpha + ")";
+        ctx.shadowColor = "rgba(255, 130, 40, " + (0.6 * beat + 0.2) + ")";
+        ctx.shadowBlur = g.size * (0.4 + 0.5 * beat);    // halo qui pulse
+        ctx.fillStyle = "rgba(255, 170, 85, " + a + ")";
         ctx.fillText(g.char, 0, 0);
         ctx.restore();
         if (g.y - g.size > canvas.height) Object.assign(g, makeGlyph(false));
