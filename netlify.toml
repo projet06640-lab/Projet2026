@@ -1,0 +1,5 @@
+# Configuration Netlify pour Astro Fun
+# Le site est un fichier statique situé dans le dossier site/
+[build]
+  publish = "site"
+  command = ""
